@@ -1,0 +1,13 @@
+{
+  "name": "TODOs",
+  "repository": "https://github.com/joeyespo/todos-api",
+  "env": {
+    "SECRET_KEY": {
+      "description": "A secret key for verifying the integrity of signed cookies.",
+      "generator": "secret"
+    }
+  },
+  "addons": [
+    "heroku-postgresql"
+  ]
+}
